@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - ci-patch
     paths:
       - '**/Dockerfile'
       - '.github/workflows/docker-build-push.yml'
